@@ -6,23 +6,23 @@ Built for the **Nirmaan AI Intern Case Study**.
 
 ## 📌 Project Overview
 
-This tool evaluates a student's *spoken introduction* (converted into text) using a clear, structured rubric.  
-The user pastes the transcript, and the app calculates:
+This tool evaluates a student's *spoken introduction* (converted into text) using a clean, structured rubric.  
+The user pastes the transcript, and the app generates:
 
 - ✔ Per-criterion scores  
 - ✔ Keyword coverage  
 - ✔ Length suitability  
-- ✔ Weighted overall score  
 - ✔ Constructive feedback  
+- ✔ Weighted overall communication score  
 
-The scoring focuses on clarity, completeness, and communication structure.
+This scoring system helps assess clarity, completeness, and communication skills.
 
 ---
 
 ## 🚀 Features
 
 ### **1. Four-Criterion Rubric**
-The transcript is evaluated on:
+The transcript is evaluated on four major components:
 
 1. **Basic Self-Introduction**  
 2. **Family & Background**  
@@ -32,13 +32,13 @@ The transcript is evaluated on:
 Each includes:
 - Keywords  
 - Weightage  
-- Recommended word range  
+- Expected word range  
 
 ---
 
-### **2. Keyword + Length Evaluation**
-The app checks:
-- Presence of essential keywords  
+### **2. Keyword + Length Based Evaluation**
+The app calculates:
+- Presence of keywords  
 - Whether the transcript fits the expected length  
 - Combined rule-based score for each criterion  
 
@@ -47,15 +47,15 @@ The app checks:
 ### **3. Clean & Professional UI**
 - Simple white interface  
 - Dark-blue sidebar  
-- Rubric shown in a clean table  
+- Rubric summary table  
 - Developer credit shown as **“Developed by Renuka A”**  
 
 ---
 
-### **4. No Excel Required**
+### **4. No Excel Required in App**
 Although the case study included an Excel rubric,  
-the rubric is **implemented directly in the app**,  
-making the system fast, lightweight, and deployment-ready.
+the rubric is **implemented directly inside the app**,  
+making the tool lightweight and deployment-ready.
 
 ---
 
@@ -63,15 +63,47 @@ making the system fast, lightweight, and deployment-ready.
 
 - Python  
 - Streamlit  
-- Pandas  
 - NumPy  
+- Pandas  
 
 ---
 
-## 📦 Installation
+## 📦 Installation (Using Windows Command Prompt)
 
-Install all dependencies:
+You can run this project directly through the **Windows Command Prompt** by following these steps:
+
+### 1️⃣ Create your project folder
+Create a folder on your system nirmaan_intro_scorer
+Add files
+
+Place these files inside the folder:
+- `app.py`
+- `requirements.txt`
+- `README.md`
+
+---
+
+### 2️⃣ Open Command Prompt
+
+Press **Win + R**, type `cmd`, and press **Enter**.
+
+---
+
+### 3️⃣ Navigate to your project folder
 
 ```bash
+cd C:\Users\sss\Desktop\nirmaan_intro_scorer
+
+Install the dependencies
 pip install -r requirements.txt
+
+Run the Application
+streamlit run app.py
+
+
+
+
+
+
+
 
